@@ -19,7 +19,7 @@ public class ReadFile {
             Reader.close();
         }
         catch (FileNotFoundException  e) {
-            System.out.println("An error has occured");
+            System.out.println("An error has occurred");
             e.printStackTrace();
         }
     }
