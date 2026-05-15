@@ -17,7 +17,7 @@ public class CanReadExample {
                 System.out.println("File already exists");
             }
 
-            if(obj.canRead()){
+            if(obj.canRead()){                              // obj.canWrite()  to check if a file can be written to by the program
                 System.out.println("File can be read");
             }
             else{
