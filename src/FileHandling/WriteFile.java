@@ -10,7 +10,7 @@ public class WriteFile {
         try {
             FileWriter Writer = new FileWriter("myfile.txt");
 
-            Writer.write("I want to go on a bike ride soon.");
+            Writer.write("I want to go on a bike ride soon. I like to ride my bike in the mountains");
             Writer.close();
 
             System.out.println("File has been written successfully");
