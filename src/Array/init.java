@@ -23,5 +23,14 @@ public class init {
         for (int i = 0; i < names.length; i++){
             System.out.print(names[i]+" ");
         }
+
+        String [] brands = new String[10];
+
+        brands[1] = "Audi" ;
+        brands[3] = "BMW" ;
+
+        System.out.println();
+
+        System.out.println(brands[0]);
     }
-}
+;}
