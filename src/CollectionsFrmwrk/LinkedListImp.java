@@ -15,7 +15,14 @@ public class LinkedListImp {
 
         System.out.println(l1);
 
+    //  variable type = linked list  object type = linked list      cannot use methods of list and use linked list methods only.
         LinkedList<String> l2 = new LinkedList<String>();
+
+
+        // variable type = list   object type = linked list     can use only list methods and not linked list methods
+        //  List<String> l2 = new LinkedList<String>();
+
+        // both are related but not the same
 
         l2.add("Geeks");
         l2.add("Geeks");
