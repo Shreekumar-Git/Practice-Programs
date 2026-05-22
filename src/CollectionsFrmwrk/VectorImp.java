@@ -20,6 +20,8 @@ public class VectorImp {
         v.add("Koenigsegg");
         v.add("Porsche");
 
+        // same methods as linked list ( Add Remove Set Size etc)
+
         System.out.println(v);
 
 
