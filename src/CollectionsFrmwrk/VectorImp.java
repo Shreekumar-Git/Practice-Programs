@@ -47,6 +47,7 @@ public class VectorImp {
         for(int i = 0; i < v1.size() ; i++){
             System.out.print(v1.get(i)+" ");
         }
+
         System.out.println("\n");
 
         for(int a : v1){
