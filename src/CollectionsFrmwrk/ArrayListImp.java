@@ -3,6 +3,13 @@ package CollectionsFrmwrk;
 import java.util.*;
 public class ArrayListImp {
 
+//ArrayList in Java is a resizable array provided in the java.util package.
+// Unlike normal arrays, its size can grow or shrink dynamically as elements are added or removed.
+//Elements can be accessed using their indices, similar to arrays.
+//Duplicates are allowed.
+//Elements are stored in the order they are inserted.
+//ArrayList is not thread-safe. To make it thread-safe, we must wrap it manually using Collections.synchronizedList().
+
     public static void main(String [] args){
 
 

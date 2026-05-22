@@ -3,6 +3,17 @@ import java.util.*;
 
 public class LinkedListImp {
 
+
+//LinkedList is a part of the Java Collections Framework and is present in the java.util package.
+//It implements a doubly linked list where elements are stored as nodes containing data and references to the previous and next nodes, rather than in contiguous memory locations.
+
+//The size of the LinkedList can grow or shrink dynamically at runtime.
+//Maintains the order in which elements are inserted.
+//Multiple duplicate elements can be stored.
+//LinkedList is not thread-safe by default; it can be synchronized using Collections.synchronizedList().
+//Provides better performance than ArrayList for insertion and deletion operations, especially at the beginning or middle.
+
+
     public static void main(String []args){
 
         LinkedList<String> l1 = new LinkedList<String>();
