@@ -44,6 +44,15 @@ public class VectorImp {
         v1.add(60);
         System.out.println("Capacity after adding 6 elements : "+ v1.capacity());
 
+        for(int i = 0; i < v1.size() ; i++){
+            System.out.print(v1.get(i)+" ");
+        }
+        System.out.println("\n");
+
+        for(int a : v1){
+            System.out.print(a + " ");
+        }
+
         // the vector increases its size when we add more number of elements than its capacity
         // the formula is ( old capacity * 2 )
     }
